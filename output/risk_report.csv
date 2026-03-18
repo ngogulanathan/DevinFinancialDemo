@@ -1,0 +1,101 @@
+transaction_id,amount,type,risk_score,risk_category,triggered_rules
+TXN-0001,9839.64,PAYMENT,20,LOW,new_destination
+TXN-0002,1864.28,PAYMENT,20,LOW,new_destination
+TXN-0003,181.0,TRANSFER,40,MEDIUM,risky_type; new_destination
+TXN-0004,181.0,CASH_OUT,40,MEDIUM,risky_type; new_destination
+TXN-0005,11668.14,PAYMENT,50,MEDIUM,high_amount; new_destination
+TXN-0006,7817.71,PAYMENT,20,LOW,new_destination
+TXN-0007,7107.77,PAYMENT,20,LOW,new_destination
+TXN-0008,7861.64,PAYMENT,20,LOW,new_destination
+TXN-0009,4024.36,PAYMENT,20,LOW,new_destination
+TXN-0010,5337.77,DEBIT,20,LOW,new_destination
+TXN-0011,9644.94,DEBIT,20,LOW,new_destination
+TXN-0012,3099.97,PAYMENT,20,LOW,new_destination
+TXN-0013,2560.74,PAYMENT,20,LOW,new_destination
+TXN-0014,11633.76,PAYMENT,50,MEDIUM,high_amount; new_destination
+TXN-0015,4098.78,PAYMENT,20,LOW,new_destination
+TXN-0016,229133.94,CASH_OUT,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0017,1563.82,PAYMENT,20,LOW,new_destination
+TXN-0018,1157.86,PAYMENT,20,LOW,new_destination
+TXN-0019,671.64,PAYMENT,20,LOW,new_destination
+TXN-0020,215310.3,TRANSFER,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0021,1373.43,PAYMENT,20,LOW,new_destination
+TXN-0022,9302.79,DEBIT,20,LOW,new_destination
+TXN-0023,1065.41,DEBIT,20,LOW,new_destination
+TXN-0024,3876.41,PAYMENT,20,LOW,new_destination
+TXN-0025,311685.89,TRANSFER,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0026,6061.13,PAYMENT,20,LOW,new_destination
+TXN-0027,9478.39,PAYMENT,20,LOW,new_destination
+TXN-0028,8009.09,PAYMENT,20,LOW,new_destination
+TXN-0029,8901.99,PAYMENT,20,LOW,new_destination
+TXN-0030,9920.52,PAYMENT,20,LOW,new_destination
+TXN-0031,3448.92,PAYMENT,20,LOW,new_destination
+TXN-0032,4206.84,PAYMENT,20,LOW,new_destination
+TXN-0033,5885.56,PAYMENT,20,LOW,new_destination
+TXN-0034,5307.88,PAYMENT,20,LOW,new_destination
+TXN-0035,5031.22,PAYMENT,20,LOW,new_destination
+TXN-0036,24213.67,PAYMENT,50,MEDIUM,high_amount; new_destination
+TXN-0037,8603.42,PAYMENT,20,LOW,new_destination
+TXN-0038,2791.42,PAYMENT,20,LOW,new_destination
+TXN-0039,7413.54,PAYMENT,20,LOW,new_destination
+TXN-0040,3295.19,PAYMENT,20,LOW,new_destination
+TXN-0041,1684.81,PAYMENT,20,LOW,new_destination
+TXN-0042,5758.59,DEBIT,20,LOW,new_destination
+TXN-0043,110414.71,CASH_OUT,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0044,7823.46,PAYMENT,20,LOW,new_destination
+TXN-0045,5086.48,PAYMENT,20,LOW,new_destination
+TXN-0046,5281.48,PAYMENT,20,LOW,new_destination
+TXN-0047,13875.98,PAYMENT,50,MEDIUM,high_amount; new_destination
+TXN-0048,56953.9,CASH_OUT,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0049,5346.89,CASH_OUT,40,MEDIUM,risky_type; new_destination
+TXN-0050,2204.04,PAYMENT,20,LOW,new_destination
+TXN-0051,2641.47,PAYMENT,20,LOW,new_destination
+TXN-0052,23261.3,CASH_OUT,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0053,2330.64,PAYMENT,20,LOW,new_destination
+TXN-0054,1614.64,PAYMENT,20,LOW,new_destination
+TXN-0055,9164.71,PAYMENT,20,LOW,new_destination
+TXN-0056,2970.97,PAYMENT,20,LOW,new_destination
+TXN-0057,38.66,PAYMENT,20,LOW,new_destination
+TXN-0058,2252.44,PAYMENT,20,LOW,new_destination
+TXN-0059,62610.8,TRANSFER,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0060,5529.13,DEBIT,20,LOW,new_destination
+TXN-0061,82940.31,CASH_OUT,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0062,4510.22,DEBIT,20,LOW,new_destination
+TXN-0063,8727.74,DEBIT,20,LOW,new_destination
+TXN-0064,2599.46,PAYMENT,20,LOW,new_destination
+TXN-0065,4874.49,DEBIT,20,LOW,new_destination
+TXN-0066,6440.78,PAYMENT,20,LOW,new_destination
+TXN-0067,4910.14,PAYMENT,20,LOW,new_destination
+TXN-0068,6444.64,PAYMENT,20,LOW,new_destination
+TXN-0069,5149.66,DEBIT,20,LOW,new_destination
+TXN-0070,7292.16,PAYMENT,20,LOW,new_destination
+TXN-0071,47458.86,CASH_OUT,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0072,136872.92,CASH_OUT,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0073,94253.33,CASH_OUT,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0074,2998.04,PAYMENT,20,LOW,new_destination
+TXN-0075,3454.08,PAYMENT,20,LOW,new_destination
+TXN-0076,4316.2,PAYMENT,20,LOW,new_destination
+TXN-0077,2131.84,PAYMENT,20,LOW,new_destination
+TXN-0078,12986.61,PAYMENT,50,MEDIUM,high_amount; new_destination
+TXN-0079,42712.39,TRANSFER,50,MEDIUM,high_amount; risky_type
+TXN-0080,77957.68,TRANSFER,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0081,17231.46,TRANSFER,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0082,78766.03,TRANSFER,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0083,224606.64,TRANSFER,50,MEDIUM,high_amount; risky_type
+TXN-0084,125872.53,TRANSFER,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0085,379856.23,TRANSFER,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0086,1505626.01,TRANSFER,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0087,554026.99,TRANSFER,50,MEDIUM,high_amount; risky_type
+TXN-0088,147543.1,TRANSFER,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0089,761507.39,TRANSFER,50,MEDIUM,high_amount; risky_type
+TXN-0090,1429051.47,TRANSFER,50,MEDIUM,high_amount; risky_type
+TXN-0091,358831.92,TRANSFER,50,MEDIUM,high_amount; risky_type
+TXN-0092,367768.4,TRANSFER,50,MEDIUM,high_amount; risky_type
+TXN-0093,209711.11,TRANSFER,50,MEDIUM,high_amount; risky_type
+TXN-0094,583848.46,TRANSFER,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0095,1724887.05,TRANSFER,50,MEDIUM,high_amount; risky_type
+TXN-0096,710544.77,TRANSFER,50,MEDIUM,high_amount; risky_type
+TXN-0097,581294.26,TRANSFER,50,MEDIUM,high_amount; risky_type
+TXN-0098,11996.58,TRANSFER,70,MEDIUM,high_amount; risky_type; new_destination
+TXN-0099,2875.1,PAYMENT,20,LOW,new_destination
+TXN-0100,8586.98,PAYMENT,20,LOW,new_destination
