@@ -1,0 +1,34 @@
+customer_id,involved_transaction_ids,sequence_start_time,sequence_end_time,pattern,reason,severity
+C1000001,"TXN-0003, TXN-0004",1,1,REPEATED_HIGH_VALUE,2 transactions above 10000 in short window,HIGH
+C1000001,"TXN-0003, TXN-0004",1,1,TRANSFER_THEN_CASHOUT,TRANSFER followed immediately by CASH_OUT — high risk layering pattern,HIGH
+C1000001,TXN-0003,1,1,SUDDEN_AMOUNT_SPIKE,Amount 15000.00 is 27.3x the recent baseline (550.00),MEDIUM
+C1000001,TXN-0003,1,1,SUDDEN_TYPE_CHANGE,Transaction type changed to TRANSFER (previously only: PAYMENT),MEDIUM
+C1000001,TXN-0004,1,1,SUDDEN_TYPE_CHANGE,"Transaction type changed to CASH_OUT (previously only: PAYMENT, TRANSFER)",MEDIUM
+C1000002,"TXN-0008, TXN-0009",3,3,REPEATED_HIGH_VALUE,2 transactions above 10000 in short window,HIGH
+C1000002,"TXN-0008, TXN-0009",3,3,TRANSFER_THEN_CASHOUT,TRANSFER followed immediately by CASH_OUT — high risk layering pattern,HIGH
+C1000002,TXN-0008,3,3,SUDDEN_AMOUNT_SPIKE,Amount 50000.00 is 120.0x the recent baseline (416.67),MEDIUM
+C1000002,TXN-0009,3,3,SUDDEN_AMOUNT_SPIKE,Amount 49000.00 is 3.8x the recent baseline (12812.50),MEDIUM
+C1000002,TXN-0008,3,3,SUDDEN_TYPE_CHANGE,Transaction type changed to TRANSFER (previously only: PAYMENT),MEDIUM
+C1000002,TXN-0009,3,3,SUDDEN_TYPE_CHANGE,"Transaction type changed to CASH_OUT (previously only: PAYMENT, TRANSFER)",MEDIUM
+C1000003,"TXN-0012, TXN-0013, TXN-0014",2,2,REPEATED_HIGH_VALUE,3 transactions above 10000 in short window,HIGH
+C1000003,"TXN-0013, TXN-0014",2,2,TRANSFER_THEN_CASHOUT,TRANSFER followed immediately by CASH_OUT — high risk layering pattern,HIGH
+C1000003,"TXN-0012, TXN-0013, TXN-0014",2,2,TRANSFER_CHAIN_CASHOUT,TRANSFER -> TRANSFER -> CASH_OUT chain detected -- strong suspicious pattern,HIGH
+C1000003,TXN-0012,2,2,SUDDEN_AMOUNT_SPIKE,Amount 20000.00 is 88.9x the recent baseline (225.00),MEDIUM
+C1000003,TXN-0012,2,2,SUDDEN_TYPE_CHANGE,Transaction type changed to TRANSFER (previously only: PAYMENT),MEDIUM
+C1000003,TXN-0014,2,2,SUDDEN_TYPE_CHANGE,"Transaction type changed to CASH_OUT (previously only: PAYMENT, TRANSFER)",MEDIUM
+C1000004,TXN-0018,2,2,SUDDEN_AMOUNT_SPIKE,Amount 25000.00 is 202.7x the recent baseline (123.33),MEDIUM
+C1000005,"TXN-0019, TXN-0020, TXN-0021, TXN-0022",1,1,REPEATED_HIGH_VALUE,4 transactions above 10000 in short window,HIGH
+C1000005,"TXN-0021, TXN-0022",1,1,TRANSFER_THEN_CASHOUT,TRANSFER followed immediately by CASH_OUT — high risk layering pattern,HIGH
+C1000005,TXN-0021,1,1,SUDDEN_TYPE_CHANGE,Transaction type changed to TRANSFER (previously only: PAYMENT),MEDIUM
+C1000005,TXN-0022,1,1,SUDDEN_TYPE_CHANGE,"Transaction type changed to CASH_OUT (previously only: PAYMENT, TRANSFER)",MEDIUM
+C1000006,TXN-0028,6,6,SUDDEN_AMOUNT_SPIKE,Amount 5000.00 is 12.5x the recent baseline (400.00),MEDIUM
+C1000006,TXN-0028,6,6,SUDDEN_TYPE_CHANGE,Transaction type changed to CASH_OUT (previously only: PAYMENT),MEDIUM
+C1000007,"TXN-0029, TXN-0030, TXN-0031",1,1,REPEATED_HIGH_VALUE,3 transactions above 10000 in short window,HIGH
+C1000007,"TXN-0030, TXN-0031",1,1,TRANSFER_THEN_CASHOUT,TRANSFER followed immediately by CASH_OUT — high risk layering pattern,HIGH
+C1000007,"TXN-0029, TXN-0030, TXN-0031",1,1,TRANSFER_CHAIN_CASHOUT,TRANSFER -> TRANSFER -> CASH_OUT chain detected -- strong suspicious pattern,HIGH
+C1000007,TXN-0031,1,1,SUDDEN_TYPE_CHANGE,Transaction type changed to CASH_OUT (previously only: TRANSFER),MEDIUM
+C1000008,TXN-0035,3,3,SUDDEN_AMOUNT_SPIKE,Amount 9000.00 is 36.0x the recent baseline (250.00),MEDIUM
+C1000008,TXN-0035,3,3,SUDDEN_TYPE_CHANGE,Transaction type changed to TRANSFER (previously only: PAYMENT),MEDIUM
+C1000010,"TXN-0041, TXN-0042, TXN-0043, TXN-0044",1,1,REPEATED_HIGH_VALUE,4 transactions above 10000 in short window,HIGH
+C1000010,TXN-0044,1,1,SUDDEN_AMOUNT_SPIKE,Amount 50000.00 is 4.2x the recent baseline (12000.00),MEDIUM
+C1000010,TXN-0044,1,1,SUDDEN_TYPE_CHANGE,Transaction type changed to TRANSFER (previously only: PAYMENT),MEDIUM

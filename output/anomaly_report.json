@@ -1,0 +1,299 @@
+[
+  {
+    "customer_id": "C1000001",
+    "involved_transaction_ids": "TXN-0003, TXN-0004",
+    "sequence_start_time": 1,
+    "sequence_end_time": 1,
+    "pattern": "REPEATED_HIGH_VALUE",
+    "reason": "2 transactions above 10000 in short window",
+    "severity": "HIGH"
+  },
+  {
+    "customer_id": "C1000001",
+    "involved_transaction_ids": "TXN-0003, TXN-0004",
+    "sequence_start_time": 1,
+    "sequence_end_time": 1,
+    "pattern": "TRANSFER_THEN_CASHOUT",
+    "reason": "TRANSFER followed immediately by CASH_OUT \u2014 high risk layering pattern",
+    "severity": "HIGH"
+  },
+  {
+    "customer_id": "C1000001",
+    "involved_transaction_ids": "TXN-0003",
+    "sequence_start_time": 1,
+    "sequence_end_time": 1,
+    "pattern": "SUDDEN_AMOUNT_SPIKE",
+    "reason": "Amount 15000.00 is 27.3x the recent baseline (550.00)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000001",
+    "involved_transaction_ids": "TXN-0003",
+    "sequence_start_time": 1,
+    "sequence_end_time": 1,
+    "pattern": "SUDDEN_TYPE_CHANGE",
+    "reason": "Transaction type changed to TRANSFER (previously only: PAYMENT)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000001",
+    "involved_transaction_ids": "TXN-0004",
+    "sequence_start_time": 1,
+    "sequence_end_time": 1,
+    "pattern": "SUDDEN_TYPE_CHANGE",
+    "reason": "Transaction type changed to CASH_OUT (previously only: PAYMENT, TRANSFER)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000002",
+    "involved_transaction_ids": "TXN-0008, TXN-0009",
+    "sequence_start_time": 3,
+    "sequence_end_time": 3,
+    "pattern": "REPEATED_HIGH_VALUE",
+    "reason": "2 transactions above 10000 in short window",
+    "severity": "HIGH"
+  },
+  {
+    "customer_id": "C1000002",
+    "involved_transaction_ids": "TXN-0008, TXN-0009",
+    "sequence_start_time": 3,
+    "sequence_end_time": 3,
+    "pattern": "TRANSFER_THEN_CASHOUT",
+    "reason": "TRANSFER followed immediately by CASH_OUT \u2014 high risk layering pattern",
+    "severity": "HIGH"
+  },
+  {
+    "customer_id": "C1000002",
+    "involved_transaction_ids": "TXN-0008",
+    "sequence_start_time": 3,
+    "sequence_end_time": 3,
+    "pattern": "SUDDEN_AMOUNT_SPIKE",
+    "reason": "Amount 50000.00 is 120.0x the recent baseline (416.67)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000002",
+    "involved_transaction_ids": "TXN-0009",
+    "sequence_start_time": 3,
+    "sequence_end_time": 3,
+    "pattern": "SUDDEN_AMOUNT_SPIKE",
+    "reason": "Amount 49000.00 is 3.8x the recent baseline (12812.50)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000002",
+    "involved_transaction_ids": "TXN-0008",
+    "sequence_start_time": 3,
+    "sequence_end_time": 3,
+    "pattern": "SUDDEN_TYPE_CHANGE",
+    "reason": "Transaction type changed to TRANSFER (previously only: PAYMENT)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000002",
+    "involved_transaction_ids": "TXN-0009",
+    "sequence_start_time": 3,
+    "sequence_end_time": 3,
+    "pattern": "SUDDEN_TYPE_CHANGE",
+    "reason": "Transaction type changed to CASH_OUT (previously only: PAYMENT, TRANSFER)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000003",
+    "involved_transaction_ids": "TXN-0012, TXN-0013, TXN-0014",
+    "sequence_start_time": 2,
+    "sequence_end_time": 2,
+    "pattern": "REPEATED_HIGH_VALUE",
+    "reason": "3 transactions above 10000 in short window",
+    "severity": "HIGH"
+  },
+  {
+    "customer_id": "C1000003",
+    "involved_transaction_ids": "TXN-0013, TXN-0014",
+    "sequence_start_time": 2,
+    "sequence_end_time": 2,
+    "pattern": "TRANSFER_THEN_CASHOUT",
+    "reason": "TRANSFER followed immediately by CASH_OUT \u2014 high risk layering pattern",
+    "severity": "HIGH"
+  },
+  {
+    "customer_id": "C1000003",
+    "involved_transaction_ids": "TXN-0012, TXN-0013, TXN-0014",
+    "sequence_start_time": 2,
+    "sequence_end_time": 2,
+    "pattern": "TRANSFER_CHAIN_CASHOUT",
+    "reason": "TRANSFER -> TRANSFER -> CASH_OUT chain detected -- strong suspicious pattern",
+    "severity": "HIGH"
+  },
+  {
+    "customer_id": "C1000003",
+    "involved_transaction_ids": "TXN-0012",
+    "sequence_start_time": 2,
+    "sequence_end_time": 2,
+    "pattern": "SUDDEN_AMOUNT_SPIKE",
+    "reason": "Amount 20000.00 is 88.9x the recent baseline (225.00)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000003",
+    "involved_transaction_ids": "TXN-0012",
+    "sequence_start_time": 2,
+    "sequence_end_time": 2,
+    "pattern": "SUDDEN_TYPE_CHANGE",
+    "reason": "Transaction type changed to TRANSFER (previously only: PAYMENT)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000003",
+    "involved_transaction_ids": "TXN-0014",
+    "sequence_start_time": 2,
+    "sequence_end_time": 2,
+    "pattern": "SUDDEN_TYPE_CHANGE",
+    "reason": "Transaction type changed to CASH_OUT (previously only: PAYMENT, TRANSFER)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000004",
+    "involved_transaction_ids": "TXN-0018",
+    "sequence_start_time": 2,
+    "sequence_end_time": 2,
+    "pattern": "SUDDEN_AMOUNT_SPIKE",
+    "reason": "Amount 25000.00 is 202.7x the recent baseline (123.33)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000005",
+    "involved_transaction_ids": "TXN-0019, TXN-0020, TXN-0021, TXN-0022",
+    "sequence_start_time": 1,
+    "sequence_end_time": 1,
+    "pattern": "REPEATED_HIGH_VALUE",
+    "reason": "4 transactions above 10000 in short window",
+    "severity": "HIGH"
+  },
+  {
+    "customer_id": "C1000005",
+    "involved_transaction_ids": "TXN-0021, TXN-0022",
+    "sequence_start_time": 1,
+    "sequence_end_time": 1,
+    "pattern": "TRANSFER_THEN_CASHOUT",
+    "reason": "TRANSFER followed immediately by CASH_OUT \u2014 high risk layering pattern",
+    "severity": "HIGH"
+  },
+  {
+    "customer_id": "C1000005",
+    "involved_transaction_ids": "TXN-0021",
+    "sequence_start_time": 1,
+    "sequence_end_time": 1,
+    "pattern": "SUDDEN_TYPE_CHANGE",
+    "reason": "Transaction type changed to TRANSFER (previously only: PAYMENT)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000005",
+    "involved_transaction_ids": "TXN-0022",
+    "sequence_start_time": 1,
+    "sequence_end_time": 1,
+    "pattern": "SUDDEN_TYPE_CHANGE",
+    "reason": "Transaction type changed to CASH_OUT (previously only: PAYMENT, TRANSFER)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000006",
+    "involved_transaction_ids": "TXN-0028",
+    "sequence_start_time": 6,
+    "sequence_end_time": 6,
+    "pattern": "SUDDEN_AMOUNT_SPIKE",
+    "reason": "Amount 5000.00 is 12.5x the recent baseline (400.00)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000006",
+    "involved_transaction_ids": "TXN-0028",
+    "sequence_start_time": 6,
+    "sequence_end_time": 6,
+    "pattern": "SUDDEN_TYPE_CHANGE",
+    "reason": "Transaction type changed to CASH_OUT (previously only: PAYMENT)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000007",
+    "involved_transaction_ids": "TXN-0029, TXN-0030, TXN-0031",
+    "sequence_start_time": 1,
+    "sequence_end_time": 1,
+    "pattern": "REPEATED_HIGH_VALUE",
+    "reason": "3 transactions above 10000 in short window",
+    "severity": "HIGH"
+  },
+  {
+    "customer_id": "C1000007",
+    "involved_transaction_ids": "TXN-0030, TXN-0031",
+    "sequence_start_time": 1,
+    "sequence_end_time": 1,
+    "pattern": "TRANSFER_THEN_CASHOUT",
+    "reason": "TRANSFER followed immediately by CASH_OUT \u2014 high risk layering pattern",
+    "severity": "HIGH"
+  },
+  {
+    "customer_id": "C1000007",
+    "involved_transaction_ids": "TXN-0029, TXN-0030, TXN-0031",
+    "sequence_start_time": 1,
+    "sequence_end_time": 1,
+    "pattern": "TRANSFER_CHAIN_CASHOUT",
+    "reason": "TRANSFER -> TRANSFER -> CASH_OUT chain detected -- strong suspicious pattern",
+    "severity": "HIGH"
+  },
+  {
+    "customer_id": "C1000007",
+    "involved_transaction_ids": "TXN-0031",
+    "sequence_start_time": 1,
+    "sequence_end_time": 1,
+    "pattern": "SUDDEN_TYPE_CHANGE",
+    "reason": "Transaction type changed to CASH_OUT (previously only: TRANSFER)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000008",
+    "involved_transaction_ids": "TXN-0035",
+    "sequence_start_time": 3,
+    "sequence_end_time": 3,
+    "pattern": "SUDDEN_AMOUNT_SPIKE",
+    "reason": "Amount 9000.00 is 36.0x the recent baseline (250.00)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000008",
+    "involved_transaction_ids": "TXN-0035",
+    "sequence_start_time": 3,
+    "sequence_end_time": 3,
+    "pattern": "SUDDEN_TYPE_CHANGE",
+    "reason": "Transaction type changed to TRANSFER (previously only: PAYMENT)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000010",
+    "involved_transaction_ids": "TXN-0041, TXN-0042, TXN-0043, TXN-0044",
+    "sequence_start_time": 1,
+    "sequence_end_time": 1,
+    "pattern": "REPEATED_HIGH_VALUE",
+    "reason": "4 transactions above 10000 in short window",
+    "severity": "HIGH"
+  },
+  {
+    "customer_id": "C1000010",
+    "involved_transaction_ids": "TXN-0044",
+    "sequence_start_time": 1,
+    "sequence_end_time": 1,
+    "pattern": "SUDDEN_AMOUNT_SPIKE",
+    "reason": "Amount 50000.00 is 4.2x the recent baseline (12000.00)",
+    "severity": "MEDIUM"
+  },
+  {
+    "customer_id": "C1000010",
+    "involved_transaction_ids": "TXN-0044",
+    "sequence_start_time": 1,
+    "sequence_end_time": 1,
+    "pattern": "SUDDEN_TYPE_CHANGE",
+    "reason": "Transaction type changed to TRANSFER (previously only: PAYMENT)",
+    "severity": "MEDIUM"
+  }
+]
